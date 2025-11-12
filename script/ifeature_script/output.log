@@ -1,0 +1,58 @@
+nohup: ignoring input
+Descriptor type: AAC
+Descriptor type: CKSAAP
+Descriptor type: DPC
+Descriptor type: PSSM
+Error: for "PSSM" encoding, the input fasta sequences should be with equal length. 
+
+
+Descriptor type: CTDC
+Descriptor type: CTDT
+Descriptor type: CTDD
+Descriptor type: QSOrder
+Error: all the sequence length should be larger than the nlag+1: 31
+
+
+Descriptor type: PAAC
+Error: all the sequence length should be larger than the lambdaValue+1: 31
+
+
+usage: it's usage tip.
+iFeature.py: error: argument --type: invalid choice: 'Kmer' (choose from 'AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC', 'KNNprotein', 'KNNpeptide', 'PSSM', 'SSEC', 'SSEB', 'Disorder', 'DisorderC', 'DisorderB', 'ASA', 'TA')
+usage: it's usage tip.
+iFeature.py: error: argument --type: invalid choice: 'AACI' (choose from 'AAC', 'EAAC', 'CKSAAP', 'DPC', 'DDE', 'TPC', 'BINARY', 'GAAC', 'EGAAC', 'CKSAAGP', 'GDPC', 'GTPC', 'AAINDEX', 'ZSCALE', 'BLOSUM62', 'NMBroto', 'Moran', 'Geary', 'CTDC', 'CTDT', 'CTDD', 'CTriad', 'KSCTriad', 'SOCNumber', 'QSOrder', 'PAAC', 'APAAC', 'KNNprotein', 'KNNpeptide', 'PSSM', 'SSEC', 'SSEB', 'Disorder', 'DisorderC', 'DisorderB', 'ASA', 'TA')
+
+▶ 正在提取特征: AAC ...
+✅ 特征提取成功: AAC
+
+▶ 正在提取特征: CKSAAP ...
+✅ 特征提取成功: CKSAAP
+
+▶ 正在提取特征: DPC ...
+✅ 特征提取成功: DPC
+
+▶ 正在提取特征: PSSM ...
+✅ 特征提取成功: PSSM
+
+▶ 正在提取特征: CTDC ...
+✅ 特征提取成功: CTDC
+
+▶ 正在提取特征: CTDT ...
+✅ 特征提取成功: CTDT
+
+▶ 正在提取特征: CTDD ...
+✅ 特征提取成功: CTDD
+
+▶ 正在提取特征: QSOrder ...
+✅ 特征提取成功: QSOrder
+
+▶ 正在提取特征: PAAC ...
+✅ 特征提取成功: PAAC
+
+▶ 正在提取特征: Kmer ...
+[错误] 特征提取失败（跳过）: Kmer
+
+▶ 正在提取特征: AACI ...
+[错误] 特征提取失败（跳过）: AACI
+
+🎉 所有有效特征已保存到: /mnt/data/lzp/OGT/result/ifeature_result/protein_features.csv

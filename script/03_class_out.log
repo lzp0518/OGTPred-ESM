@@ -1,0 +1,122 @@
+nohup: ignoring input
+03_ogt_class_model_training.py:20: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  X_embeddings = torch.load(embedding_file)
+[I 2025-06-24 16:45:18,672] A new study created in memory with name: no-name-7132ff5f-0d2b-4163-8b96-31a866e84626
+[I 2025-06-24 16:46:57,955] Trial 0 finished with value: 0.47533781367998856 and parameters: {'hidden_dim1': 704, 'hidden_dim2': 512, 'dropout_rate': 0.22805095683539256, 'lr': 2.9104706866229623e-05, 'weight_decay': 4.276939356665629e-06}. Best is trial 0 with value: 0.47533781367998856.
+[I 2025-06-24 16:48:32,998] Trial 1 finished with value: 0.4341705446569329 and parameters: {'hidden_dim1': 384, 'hidden_dim2': 352, 'dropout_rate': 0.2876397903282711, 'lr': 5.6624423776032093e-05, 'weight_decay': 0.0009843840265723553}. Best is trial 1 with value: 0.4341705446569329.
+[I 2025-06-24 16:50:09,688] Trial 2 finished with value: 0.42436506987636924 and parameters: {'hidden_dim1': 512, 'hidden_dim2': 128, 'dropout_rate': 0.4277820235204956, 'lr': 0.00013560781198695466, 'weight_decay': 1.7512426992764413e-06}. Best is trial 2 with value: 0.42436506987636924.
+[I 2025-06-24 16:51:46,310] Trial 3 finished with value: 0.4847831812679258 and parameters: {'hidden_dim1': 320, 'hidden_dim2': 384, 'dropout_rate': 0.24435106756848962, 'lr': 0.009906990509554698, 'weight_decay': 4.473217048350182e-05}. Best is trial 2 with value: 0.42436506987636924.
+[I 2025-06-24 16:53:23,858] Trial 4 finished with value: 0.4072164988033792 and parameters: {'hidden_dim1': 384, 'hidden_dim2': 352, 'dropout_rate': 0.2797882369399492, 'lr': 1.2778804893087409e-05, 'weight_decay': 0.0005824448257999074}. Best is trial 4 with value: 0.4072164988033792.
+[I 2025-06-24 16:54:59,381] Trial 5 finished with value: 0.47943365764923584 and parameters: {'hidden_dim1': 512, 'hidden_dim2': 128, 'dropout_rate': 0.28020631975199917, 'lr': 0.001060469974641135, 'weight_decay': 0.001312426236554129}. Best is trial 4 with value: 0.4072164988033792.
+[I 2025-06-24 16:56:34,599] Trial 6 finished with value: 0.44056615895695156 and parameters: {'hidden_dim1': 832, 'hidden_dim2': 320, 'dropout_rate': 0.31545120682842986, 'lr': 0.00036657263381944697, 'weight_decay': 0.0022946092235444364}. Best is trial 4 with value: 0.4072164988033792.
+[I 2025-06-24 16:58:09,562] Trial 7 finished with value: 0.5118887502158809 and parameters: {'hidden_dim1': 384, 'hidden_dim2': 384, 'dropout_rate': 0.4381796533719925, 'lr': 0.004170331273235871, 'weight_decay': 0.0014085731885848387}. Best is trial 4 with value: 0.4072164988033792.
+[I 2025-06-24 16:59:45,952] Trial 8 finished with value: 0.42600116866011906 and parameters: {'hidden_dim1': 384, 'hidden_dim2': 480, 'dropout_rate': 0.32548154562644127, 'lr': 2.6936674986270586e-05, 'weight_decay': 3.9216213840467515e-06}. Best is trial 4 with value: 0.4072164988033792.
+[I 2025-06-24 17:01:23,716] Trial 9 finished with value: 0.41301368972939306 and parameters: {'hidden_dim1': 256, 'hidden_dim2': 352, 'dropout_rate': 0.4648803885343142, 'lr': 1.6526110290647685e-05, 'weight_decay': 5.9637526903222855e-06}. Best is trial 4 with value: 0.4072164988033792.
+[I 2025-06-24 17:03:00,850] Trial 10 finished with value: 0.40612477535365993 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 256, 'dropout_rate': 0.37643744107696786, 'lr': 1.0284370074642589e-05, 'weight_decay': 0.0001483575824883588}. Best is trial 10 with value: 0.40612477535365993.
+[I 2025-06-24 17:04:39,960] Trial 11 finished with value: 0.40902982206426114 and parameters: {'hidden_dim1': 960, 'hidden_dim2': 256, 'dropout_rate': 0.3623137796315739, 'lr': 1.0334717685957609e-05, 'weight_decay': 0.00010303071173488908}. Best is trial 10 with value: 0.40612477535365993.
+[I 2025-06-24 17:06:15,232] Trial 12 finished with value: 0.426970463214267 and parameters: {'hidden_dim1': 960, 'hidden_dim2': 224, 'dropout_rate': 0.3754559635862456, 'lr': 9.769803284492533e-05, 'weight_decay': 0.00015058600997040167}. Best is trial 10 with value: 0.40612477535365993.
+[I 2025-06-24 17:07:54,243] Trial 13 finished with value: 0.4159112138371182 and parameters: {'hidden_dim1': 704, 'hidden_dim2': 256, 'dropout_rate': 0.40271682622615323, 'lr': 0.00035283085148517257, 'weight_decay': 0.0002791452031314622}. Best is trial 10 with value: 0.40612477535365993.
+[I 2025-06-24 17:09:34,681] Trial 14 finished with value: 0.4106666622763006 and parameters: {'hidden_dim1': 576, 'hidden_dim2': 448, 'dropout_rate': 0.27450077923577176, 'lr': 1.1909379673854766e-05, 'weight_decay': 2.1449693828773604e-05}. Best is trial 10 with value: 0.40612477535365993.
+[I 2025-06-24 17:11:14,888] Trial 15 finished with value: 0.43993599273455447 and parameters: {'hidden_dim1': 832, 'hidden_dim2': 192, 'dropout_rate': 0.2016139924607879, 'lr': 4.44456262082315e-05, 'weight_decay': 0.006859057113731217}. Best is trial 10 with value: 0.40612477535365993.
+[I 2025-06-24 17:12:53,903] Trial 16 finished with value: 0.40320687791985327 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 288, 'dropout_rate': 0.49358962500930126, 'lr': 0.0001314591715920003, 'weight_decay': 0.00038525004456185866}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:14:29,517] Trial 17 finished with value: 0.4191538513216198 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 288, 'dropout_rate': 0.4887576699096582, 'lr': 0.001046255301853272, 'weight_decay': 2.9307095357931216e-05}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:16:04,218] Trial 18 finished with value: 0.41310580514180356 and parameters: {'hidden_dim1': 832, 'hidden_dim2': 192, 'dropout_rate': 0.49648634894234966, 'lr': 0.00016693669480028812, 'weight_decay': 0.00031876870762459107}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:17:40,315] Trial 19 finished with value: 0.4223903335439853 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 288, 'dropout_rate': 0.39475855606749, 'lr': 0.0008798183892359257, 'weight_decay': 7.782065704480849e-05}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:19:18,769] Trial 20 finished with value: 0.4251223593695551 and parameters: {'hidden_dim1': 896, 'hidden_dim2': 416, 'dropout_rate': 0.4462103119776281, 'lr': 7.018697259961502e-05, 'weight_decay': 0.006611438759117459}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:20:58,136] Trial 21 finished with value: 0.4421765888348604 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 320, 'dropout_rate': 0.32297047714451604, 'lr': 3.0548282550622235e-05, 'weight_decay': 0.0004365883788195537}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:22:35,917] Trial 22 finished with value: 0.420587611822491 and parameters: {'hidden_dim1': 640, 'hidden_dim2': 256, 'dropout_rate': 0.33852491192896017, 'lr': 1.74137107029325e-05, 'weight_decay': 0.0006114275497551023}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:24:16,019] Trial 23 finished with value: 0.4216503396502927 and parameters: {'hidden_dim1': 768, 'hidden_dim2': 192, 'dropout_rate': 0.4081832269076132, 'lr': 0.00022246915631630204, 'weight_decay': 0.00017269853470756953}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:25:55,156] Trial 24 finished with value: 0.41563044297389495 and parameters: {'hidden_dim1': 896, 'hidden_dim2': 320, 'dropout_rate': 0.4676661060037211, 'lr': 1.9125939372713734e-05, 'weight_decay': 0.0023241528388426784}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:27:30,704] Trial 25 finished with value: 0.43466387982042426 and parameters: {'hidden_dim1': 512, 'hidden_dim2': 288, 'dropout_rate': 0.29864711613000167, 'lr': 4.045743110323167e-05, 'weight_decay': 1.6141767488914388e-05}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:29:05,362] Trial 26 finished with value: 0.47165225758257073 and parameters: {'hidden_dim1': 960, 'hidden_dim2': 224, 'dropout_rate': 0.25712793689767344, 'lr': 8.274326421326318e-05, 'weight_decay': 6.423775805539279e-05}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:30:40,183] Trial 27 finished with value: 0.4213673867221571 and parameters: {'hidden_dim1': 256, 'hidden_dim2': 384, 'dropout_rate': 0.35593681664670407, 'lr': 1.023913679936951e-05, 'weight_decay': 0.0006328205886849641}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:32:17,194] Trial 28 finished with value: 0.4224526956040635 and parameters: {'hidden_dim1': 896, 'hidden_dim2': 352, 'dropout_rate': 0.3731288010351728, 'lr': 0.0006106396486804408, 'weight_decay': 0.00017791548826401145}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:33:58,029] Trial 29 finished with value: 0.4559967644576334 and parameters: {'hidden_dim1': 704, 'hidden_dim2': 416, 'dropout_rate': 0.21626281125339547, 'lr': 2.723796222955475e-05, 'weight_decay': 0.00028718058427848703}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:35:33,865] Trial 30 finished with value: 0.5105520065268899 and parameters: {'hidden_dim1': 448, 'hidden_dim2': 512, 'dropout_rate': 0.23122096391844937, 'lr': 0.0038149958770321256, 'weight_decay': 0.003357307658038206}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:37:09,950] Trial 31 finished with value: 0.41197199285285085 and parameters: {'hidden_dim1': 960, 'hidden_dim2': 256, 'dropout_rate': 0.3500780526876806, 'lr': 1.4071064180155984e-05, 'weight_decay': 0.00010777262293114404}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:38:44,286] Trial 32 finished with value: 0.40695470838974684 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 224, 'dropout_rate': 0.3770059458014662, 'lr': 1.0166440136684554e-05, 'weight_decay': 0.000670658445520609}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:40:19,425] Trial 33 finished with value: 0.42129946512798977 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 160, 'dropout_rate': 0.41930380688659763, 'lr': 2.3306172362283744e-05, 'weight_decay': 0.0008766205686307771}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:41:58,018] Trial 34 finished with value: 0.4278651733811085 and parameters: {'hidden_dim1': 896, 'hidden_dim2': 224, 'dropout_rate': 0.38184408153483895, 'lr': 5.925904649337857e-05, 'weight_decay': 0.0006098462140771059}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:43:38,164] Trial 35 finished with value: 0.4305882538613091 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 288, 'dropout_rate': 0.29971837874542284, 'lr': 3.50464182932016e-05, 'weight_decay': 0.001385421963713833}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:45:16,014] Trial 36 finished with value: 0.45280780605016613 and parameters: {'hidden_dim1': 768, 'hidden_dim2': 320, 'dropout_rate': 0.33966130934693567, 'lr': 0.00012755789288571348, 'weight_decay': 4.998757553926541e-05}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:46:51,436] Trial 37 finished with value: 0.4138369805410377 and parameters: {'hidden_dim1': 576, 'hidden_dim2': 224, 'dropout_rate': 0.2710488693134707, 'lr': 1.7711568547206575e-05, 'weight_decay': 0.0035872416482040153}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:48:26,728] Trial 38 finished with value: 0.4713991554374369 and parameters: {'hidden_dim1': 448, 'hidden_dim2': 160, 'dropout_rate': 0.42947703364286005, 'lr': 0.0016445729757935412, 'weight_decay': 0.0003670961545947918}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:50:02,382] Trial 39 finished with value: 0.42258401966502523 and parameters: {'hidden_dim1': 320, 'hidden_dim2': 352, 'dropout_rate': 0.3896916392098971, 'lr': 5.0776364208968814e-05, 'weight_decay': 0.0009667161271658197}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:51:38,354] Trial 40 finished with value: 0.41835523683291215 and parameters: {'hidden_dim1': 960, 'hidden_dim2': 320, 'dropout_rate': 0.307478878328076, 'lr': 1.3343169657301748e-05, 'weight_decay': 0.0017254754561769172}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:53:13,264] Trial 41 finished with value: 0.4043468198715112 and parameters: {'hidden_dim1': 960, 'hidden_dim2': 256, 'dropout_rate': 0.35398903432877554, 'lr': 1.0875403258373474e-05, 'weight_decay': 0.00012252710970857785}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:54:47,393] Trial 42 finished with value: 0.4188372751968539 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 256, 'dropout_rate': 0.36500524024884806, 'lr': 2.158249751011652e-05, 'weight_decay': 0.00021989794893710314}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:56:20,873] Trial 43 finished with value: 0.4159529859948362 and parameters: {'hidden_dim1': 960, 'hidden_dim2': 288, 'dropout_rate': 0.33760975817679073, 'lr': 1.4194030643090018e-05, 'weight_decay': 0.00010558093021711631}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 17:58:14,306] Trial 44 finished with value: 0.40744066811524904 and parameters: {'hidden_dim1': 896, 'hidden_dim2': 224, 'dropout_rate': 0.4500312215599334, 'lr': 1.1417201111906851e-05, 'weight_decay': 0.0004723703903670037}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 18:00:11,079] Trial 45 finished with value: 0.42123495545397455 and parameters: {'hidden_dim1': 960, 'hidden_dim2': 384, 'dropout_rate': 0.4180029544525752, 'lr': 2.539265988439304e-05, 'weight_decay': 9.562559591554195e-06}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 18:02:05,417] Trial 46 finished with value: 0.40805214770838744 and parameters: {'hidden_dim1': 1024, 'hidden_dim2': 256, 'dropout_rate': 0.47630243879176626, 'lr': 1.0829614302641683e-05, 'weight_decay': 3.511494961075578e-05}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 18:03:41,259] Trial 47 finished with value: 0.4204420032791602 and parameters: {'hidden_dim1': 768, 'hidden_dim2': 160, 'dropout_rate': 0.28899235381908706, 'lr': 0.0005479980268999884, 'weight_decay': 0.0001352009543032998}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 18:05:17,182] Trial 48 finished with value: 0.492336905728548 and parameters: {'hidden_dim1': 832, 'hidden_dim2': 192, 'dropout_rate': 0.2555793333573096, 'lr': 0.00024240805881421882, 'weight_decay': 1.899548226952096e-06}. Best is trial 16 with value: 0.40320687791985327.
+[I 2025-06-24 18:06:51,127] Trial 49 finished with value: 0.4194611109092704 and parameters: {'hidden_dim1': 320, 'hidden_dim2': 352, 'dropout_rate': 0.32486754172501714, 'lr': 3.390550075782405e-05, 'weight_decay': 7.49171747305125e-05}. Best is trial 16 with value: 0.40320687791985327.
+Using device: cuda
+最佳超参数: {'hidden_dim1': 1024, 'hidden_dim2': 288, 'dropout_rate': 0.49358962500930126, 'lr': 0.0001314591715920003, 'weight_decay': 0.00038525004456185866}
+Epoch 1 | Train Loss: 0.5382 | Val Loss: 0.4610
+Epoch 2 | Train Loss: 0.4873 | Val Loss: 0.4592
+Epoch 3 | Train Loss: 0.4728 | Val Loss: 0.4376
+Epoch 4 | Train Loss: 0.4610 | Val Loss: 0.4328
+Epoch 5 | Train Loss: 0.4504 | Val Loss: 0.4371
+Epoch 6 | Train Loss: 0.4436 | Val Loss: 0.4264
+Epoch 7 | Train Loss: 0.4406 | Val Loss: 0.4250
+Epoch 8 | Train Loss: 0.4317 | Val Loss: 0.4237
+Epoch 9 | Train Loss: 0.4269 | Val Loss: 0.4177
+Epoch 10 | Train Loss: 0.4241 | Val Loss: 0.4235
+Epoch 11 | Train Loss: 0.4171 | Val Loss: 0.4170
+Epoch 12 | Train Loss: 0.4115 | Val Loss: 0.4153
+Epoch 13 | Train Loss: 0.4086 | Val Loss: 0.4164
+Epoch 14 | Train Loss: 0.4040 | Val Loss: 0.4139
+Epoch 15 | Train Loss: 0.4009 | Val Loss: 0.4154
+Epoch 16 | Train Loss: 0.3954 | Val Loss: 0.4095
+Epoch 17 | Train Loss: 0.3941 | Val Loss: 0.4113
+Epoch 18 | Train Loss: 0.3934 | Val Loss: 0.4158
+Epoch 19 | Train Loss: 0.3880 | Val Loss: 0.4165
+Epoch 20 | Train Loss: 0.3857 | Val Loss: 0.4094
+Epoch 21 | Train Loss: 0.3820 | Val Loss: 0.4091
+Epoch 22 | Train Loss: 0.3783 | Val Loss: 0.4158
+Epoch 23 | Train Loss: 0.3758 | Val Loss: 0.4114
+Epoch 24 | Train Loss: 0.3731 | Val Loss: 0.4161
+Epoch 25 | Train Loss: 0.3723 | Val Loss: 0.4159
+Epoch 26 | Train Loss: 0.3678 | Val Loss: 0.4147
+Epoch 27 | Train Loss: 0.3659 | Val Loss: 0.4123
+Epoch 28 | Train Loss: 0.3638 | Val Loss: 0.4131
+Epoch 29 | Train Loss: 0.3621 | Val Loss: 0.4150
+Epoch 30 | Train Loss: 0.3609 | Val Loss: 0.4116
+Epoch 31 | Train Loss: 0.3565 | Val Loss: 0.4088
+Epoch 32 | Train Loss: 0.3551 | Val Loss: 0.4165
+Epoch 33 | Train Loss: 0.3529 | Val Loss: 0.4041
+Epoch 34 | Train Loss: 0.3513 | Val Loss: 0.4075
+Epoch 35 | Train Loss: 0.3465 | Val Loss: 0.4094
+Epoch 36 | Train Loss: 0.3484 | Val Loss: 0.4082
+Epoch 37 | Train Loss: 0.3446 | Val Loss: 0.4128
+Epoch 38 | Train Loss: 0.3451 | Val Loss: 0.4138
+Epoch 39 | Train Loss: 0.3411 | Val Loss: 0.4141
+Epoch 40 | Train Loss: 0.3407 | Val Loss: 0.4117
+Epoch 41 | Train Loss: 0.3374 | Val Loss: 0.4100
+Epoch 42 | Train Loss: 0.3347 | Val Loss: 0.4145
+Epoch 43 | Train Loss: 0.3332 | Val Loss: 0.4117
+Epoch 44 | Train Loss: 0.3310 | Val Loss: 0.4169
+Epoch 45 | Train Loss: 0.3311 | Val Loss: 0.4229
+Epoch 46 | Train Loss: 0.3285 | Val Loss: 0.4113
+Epoch 47 | Train Loss: 0.3290 | Val Loss: 0.4146
+Epoch 48 | Train Loss: 0.3253 | Val Loss: 0.4137
+早停触发，提前终止训练
+
+分类报告:
+               precision    recall  f1-score   support
+
+         Low       0.83      0.77      0.80      5464
+         Mid       0.75      0.78      0.77      6901
+        High       0.90      0.91      0.90      6279
+
+    accuracy                           0.82     18644
+   macro avg       0.83      0.82      0.82     18644
+weighted avg       0.82      0.82      0.82     18644
+
+混淆矩阵:
+ [[4186 1258   20]
+ [ 859 5417  625]
+ [  13  544 5722]]
+准确率: 82.20%
