@@ -7,6 +7,7 @@ __pycache__/
 *.pth
 *.npy
 *.csv
+*.tsv
 
 # 输出文件夹（仅保留最终模型结果）
 output/
